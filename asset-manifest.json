@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/okdam/static/css/main.54d53fd3.css",
+    "main.js": "/okdam/static/js/main.df2d4138.js",
+    "static/js/787.a6de9aeb.chunk.js": "/okdam/static/js/787.a6de9aeb.chunk.js",
+    "index.html": "/okdam/index.html",
+    "main.54d53fd3.css.map": "/okdam/static/css/main.54d53fd3.css.map",
+    "main.df2d4138.js.map": "/okdam/static/js/main.df2d4138.js.map",
+    "787.a6de9aeb.chunk.js.map": "/okdam/static/js/787.a6de9aeb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54d53fd3.css",
+    "static/js/main.df2d4138.js"
+  ]
+}
