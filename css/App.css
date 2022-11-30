@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:wght@500&family=Open+Sans:ital,wght@0,300;0,600;1,300&family=Poppins:wght@300;400;500;600&family=Quicksand:wght@400;600;700&family=Roboto:wght@500;700&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  background: #0c4e6e;
+  padding-left: 20px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: white;
+  padding: 5px 15px;
+  line-height: 1.5;
+}
+
+.one {
+  width: 450px;
+  padding-left: 70px;
+}
+
+.form {
+  position: relative;
+}
+
+.three {
+  position: absolute;
+  color: black;
+  bottom: 5px;
+}
+
+.abc {
+  height: 6vh;
+}
+
+.kkk {
+  height: 25vh;
+}
+
+.ddd {
+  height: 10vh;
+}
+
+.eee {
+  width: 200px;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #000000;
+  font-size: 1.1em;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: black;
+}
+
+.navbar .navbar-nav .nav-item {
+  position: relative;
+}
+
+.navbar .navbar-nav .nav-item::after {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #000000;
+  width: 0%;
+  content: "";
+  height: 2px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.navbar .navbar-nav .nav-item:hover::after {
+  width: 100%;
+}
+
+.box {
+  width: 500px;
+  background: white;
+  color: black;
+  margin-left: 20px;
+  border: 4px solid red;
+}
+
+.simple {
+  color: black;
+}
+.simple :hover {
+  color: red;
+}
+
+.zoom {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  margin: 0 auto;
+}
+
+.zoom:hover { /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+.bhagat {
+  color: black;
+}
+.bhagat :hover {
+  background: #0c4e6e;
+  color: white !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link, .larisha {
+  padding: 5px;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}/*# sourceMappingURL=App.css.map */
